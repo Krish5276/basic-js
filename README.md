@@ -1,4 +1,4 @@
 # basic-js
 This repository is used to make a web based on js.
-<br>
+
 Author = Rahul Nimbaji Bombatkar.
