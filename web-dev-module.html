@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <title>Web Development Module | Rahul Bombatkar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="./index.html" class="nav-logo">RB<span class="accent">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./index.html#fablab" class="nav-link">FabLab</a></li>
+                <li><a href="#day1" class="nav-link">Day 1</a></li>
+                <li><a href="#day5" class="nav-link">Day 5</a></li>
+                <li><a href="#day10" class="nav-link">Day 10</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon sun">&#9728;</span>
+                    <span class="theme-icon moon">&#9790;</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== MODULE HEADER ========== -->
+    <section class="module-header">
+        <div class="container">
+            <a href="./index.html#fablab" class="back-link animate-on-scroll">&#8592; Back to FabLab Modules</a>
+            <h1 class="module-title animate-on-scroll">
+                <span class="module-icon">&#127760;</span>
+                Web Development <span class="accent">Module</span>
+            </h1>
+            <p class="module-description animate-on-scroll">
+                A comprehensive 10-day journey through web development fundamentals — from HTML basics 
+                to deploying a complete portfolio website. This module covers front-end technologies, 
+                responsive design, JavaScript interactivity, and modern web practices.
+            </p>
+            <div class="module-meta animate-on-scroll">
+                <span class="meta-badge">&#128197; 10 Days</span>
+                <span class="meta-badge">&#9989; Completed</span>
+                <span class="meta-badge">&#128187; Front-End Focus</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DAY-WISE CONTENT ========== -->
+    <section class="section" id="days-content">
+        <div class="container">
+
+            <!-- DAY 1 -->
+            <div class="day-card" id="day1">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">01</span>
+                    <div>
+                        <h2>Introduction to Web Development</h2>
+                        <p class="day-subtitle">Understanding the web, browsers, and setting up the development environment</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        On Day 1, we explored the fundamentals of how the web works — understanding client-server architecture, 
+                        HTTP protocols, and the role of browsers in rendering web pages. We set up our development environment 
+                        with VS Code, installed essential extensions, and created our very first HTML file. The session covered 
+                        the basic structure of an HTML document including DOCTYPE declaration, html, head, and body tags.
+                    </p>
+                    <p>
+                        Key topics covered: What is the Internet, How websites work, Introduction to HTML, Setting up VS Code, 
+                        Creating the first web page, Understanding file structure and naming conventions.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 1 - Setting up the web development environment">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/4925f158-5a49-47ae-a039-2eee78c45f9b.png" 
+                                 alt="Day 1 - Web Development Setup" loading="lazy">
+                            <p class="gallery-caption">Setting up the development environment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 2 -->
+            <div class="day-card" id="day2">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">02</span>
+                    <div>
+                        <h2>HTML Structure & Semantic Elements</h2>
+                        <p class="day-subtitle">Deep dive into HTML5 tags, forms, tables, and semantic markup</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 2 focused on mastering HTML5 semantic elements. We learned about structural tags like header, nav, 
+                        main, section, article, aside, and footer. The session included creating forms with various input types, 
+                        building tables for data display, and understanding the importance of semantic HTML for accessibility and SEO.
+                    </p>
+                    <p>
+                        Key topics: Semantic HTML5 elements, Forms and input types, Tables and lists, 
+                        Multimedia elements (images, audio, video), Links and navigation, Accessibility basics with ARIA attributes.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 2 - HTML5 semantic structure and elements">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/37430b40-2616-4541-8eb2-dcded2c94e8d.png" 
+                                 alt="Day 2 - HTML Structure" loading="lazy">
+                            <p class="gallery-caption">Learning HTML5 semantic elements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 3 -->
+            <div class="day-card" id="day3">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">03</span>
+                    <div>
+                        <h2>CSS Fundamentals & Styling</h2>
+                        <p class="day-subtitle">Colors, typography, box model, and basic layouts</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 3 introduced CSS — the language that brings visual life to web pages. We covered selectors, 
+                        properties, the box model (margin, border, padding, content), and how CSS cascading and specificity work. 
+                        We styled our HTML pages with colors, fonts, backgrounds, and borders.
+                    </p>
+                    <p>
+                        Key topics: CSS syntax and selectors, Box model deep dive, Colors and gradients, 
+                        Typography and Google Fonts, Backgrounds and borders, CSS units (px, em, rem, %, vh, vw).
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 3 - CSS styling and color palettes">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/65b8ba24-0a4d-4e89-8623-944c34de7243.png" 
+                                 alt="Day 3 - CSS Fundamentals" loading="lazy">
+                            <p class="gallery-caption">Exploring CSS styling techniques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 4 -->
+            <div class="day-card" id="day4">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">04</span>
+                    <div>
+                        <h2>Responsive Design & Flexbox</h2>
+                        <p class="day-subtitle">Media queries, Flexbox layout, and mobile-first design</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 4 was all about making websites look great on every device. We learned Flexbox for creating 
+                        flexible layouts, media queries for responsive breakpoints, and the mobile-first design approach. 
+                        We rebuilt our previous pages to be fully responsive across desktop, tablet, and mobile screens.
+                    </p>
+                    <p>
+                        Key topics: Flexbox container and item properties, Media queries and breakpoints, 
+                        Mobile-first vs Desktop-first approach, Responsive images and typography, Viewport meta tag, 
+                        CSS Grid introduction.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 4 - Responsive design across devices">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/b127ea2b-3a35-428a-87c5-f213c16601c0.png" 
+                                 alt="Day 4 - Responsive Design" loading="lazy">
+                            <p class="gallery-caption">Responsive design across multiple devices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 5 -->
+            <div class="day-card" id="day5">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">05</span>
+                    <div>
+                        <h2>JavaScript Basics</h2>
+                        <p class="day-subtitle">Variables, data types, functions, and control flow</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 5 marked the beginning of our JavaScript journey. We learned about variables (let, const, var), 
+                        data types, operators, conditional statements, and loops. We wrote our first interactive scripts 
+                        that responded to user actions and manipulated data dynamically.
+                    </p>
+                    <p>
+                        Key topics: Variables and constants, Data types (string, number, boolean, array, object), 
+                        Operators and expressions, If/else and switch statements, For, while, and do-while loops, 
+                        Functions and scope.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 5 - JavaScript fundamentals and interactive coding">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/2b1ed4a0-af48-44fb-8948-25ee4fccb65e.png" 
+                                 alt="Day 5 - JavaScript Basics" loading="lazy">
+                            <p class="gallery-caption">Writing first JavaScript programs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 6 -->
+            <div class="day-card" id="day6">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">06</span>
+                    <div>
+                        <h2>DOM Manipulation & Events</h2>
+                        <p class="day-subtitle">Selecting elements, modifying content, and handling user events</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 6 focused on the Document Object Model (DOM) — the bridge between HTML and JavaScript. 
+                        We learned to select elements using getElementById, querySelector, and querySelectorAll. 
+                        We practiced modifying content, styles, and attributes dynamically, and handled events like 
+                        click, hover, keypress, and form submission.
+                    </p>
+                    <p>
+                        Key topics: DOM tree structure, Selecting and traversing elements, Modifying innerHTML and textContent, 
+                        Changing styles and classes, Event listeners and handlers, Event bubbling and delegation.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 6 - DOM manipulation and event handling">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/d12371bb-02d4-44b8-b65b-329e8743bdd1.png" 
+                                 alt="Day 6 - DOM Manipulation" loading="lazy">
+                            <p class="gallery-caption">DOM manipulation and debugging</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 7 -->
+            <div class="day-card" id="day7">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">07</span>
+                    <div>
+                        <h2>Forms & Validation</h2>
+                        <p class="day-subtitle">Building interactive forms with client-side validation</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 7 was dedicated to creating robust, user-friendly forms. We built contact forms, 
+                        registration forms, and login interfaces with comprehensive client-side validation using JavaScript. 
+                        We learned regex patterns for email and phone validation, real-time feedback, and form submission handling.
+                    </p>
+                    <p>
+                        Key topics: Form elements and attributes, Client-side validation techniques, Regular expressions for validation, 
+                        Real-time input feedback, Form submission and preventDefault, Custom error messages and styling.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 7 - Form design and validation">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/7da8dd0c-1e38-4fdc-95b3-7b93dcc79eb8.png" 
+                                 alt="Day 7 - Forms & Validation" loading="lazy">
+                            <p class="gallery-caption">Building forms with validation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 8 -->
+            <div class="day-card" id="day8">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">08</span>
+                    <div>
+                        <h2>APIs & Fetch</h2>
+                        <p class="day-subtitle">Working with REST APIs, JSON data, and asynchronous JavaScript</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 8 introduced us to the world of APIs and asynchronous programming. We learned about REST APIs, 
+                        JSON data format, and how to use the Fetch API to retrieve data from external services. 
+                        We built a weather app and a quote generator that fetched real-time data from public APIs.
+                    </p>
+                    <p>
+                        Key topics: What are APIs, JSON format and parsing, Fetch API and promises, 
+                        Async/await syntax, Error handling with try/catch, Displaying API data dynamically.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 8 - API integration and data fetching">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/d4803cdd-61d1-4c3c-b3bb-537c38d5bbd9.png" 
+                                 alt="Day 8 - APIs & Fetch" loading="lazy">
+                            <p class="gallery-caption">Working with APIs and JSON data</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 9 -->
+            <div class="day-card" id="day9">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">09</span>
+                    <div>
+                        <h2>Portfolio Project Development</h2>
+                        <p class="day-subtitle">Building a complete personal portfolio from scratch</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        Day 9 was the culmination of everything we learned. We started building our personal portfolio website 
+                        from scratch, combining HTML structure, CSS styling, responsive design, and JavaScript interactivity. 
+                        We implemented sections for hero, about, skills, projects, and contact — applying all concepts learned 
+                        throughout the module.
+                    </p>
+                    <p>
+                        Key topics: Project planning and wireframing, Component-based thinking, CSS animations and transitions, 
+                        Dark/light mode implementation, Smooth scrolling and navigation, Image optimization and lazy loading.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 9 - Building the portfolio website">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/fec066f8-4831-4540-b7b6-870b5d62f9bd.png" 
+                                 alt="Day 9 - Portfolio Development" loading="lazy">
+                            <p class="gallery-caption">Assembling the complete portfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAY 10 -->
+            <div class="day-card" id="day10">
+                <div class="day-header animate-on-scroll">
+                    <span class="day-number">10</span>
+                    <div>
+                        <h2>Deployment & Final Review</h2>
+                        <p class="day-subtitle">Testing, optimization, and deploying the website live</p>
+                    </div>
+                </div>
+                <div class="day-content animate-on-scroll">
+                    <p>
+                        The final day focused on polishing, testing, and deploying our portfolio websites. We learned about 
+                        GitHub Pages for free hosting, domain configuration, performance optimization, and SEO best practices. 
+                        We conducted cross-browser testing, fixed responsive issues, and celebrated our completed projects.
+                    </p>
+                    <p>
+                        Key topics: Git and GitHub basics, GitHub Pages deployment, Performance optimization (minification, compression), 
+                        SEO meta tags and Open Graph, Cross-browser testing, Final code review and documentation.
+                    </p>
+                </div>
+                <div class="day-gallery animate-on-scroll">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Day 10 - Deployment and going live">
+                            <img src="https://mgx-backend-cdn.metadl.com/generate/images/219980/2026-03-19/d871a156-5088-4e57-b405-b8ec55df8f1e.png" 
+                                 alt="Day 10 - Deployment" loading="lazy">
+                            <p class="gallery-caption">Deploying the website to the world</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">RB<span class="accent">.</span></div>
+                <p class="footer-text">&copy; 2026 Rahul Nimbaji Bombatkar. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" aria-label="GitHub">&#128187;</a>
+                    <a href="#" aria-label="LinkedIn">&#128101;</a>
+                    <a href="#" aria-label="Email">&#9993;</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== IMAGE MODAL ========== -->
+    <div class="modal-overlay" id="imageModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <img src="" alt="Preview" class="modal-image" id="modalImage">
+            <p class="modal-caption" id="modalCaption"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
