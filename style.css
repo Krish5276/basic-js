@@ -125,6 +125,12 @@ img {
     height: 70px;
 }
 
+.logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
 .nav-logo {
     font-size: 1.8rem;
     font-weight: 700;
