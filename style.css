@@ -436,6 +436,21 @@ img {
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
+.download-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
 /* ========== SECTIONS ========== */
 .section {
     padding: 100px 0;
