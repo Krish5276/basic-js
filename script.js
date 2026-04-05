@@ -31,8 +31,8 @@ const FABLAB_MODULES = [
         id: 'ui-ux',
         title: 'UI/UX Design',
         icon: '🎨',
-        active: false,
-        link: '#',
+        active: true,
+        link: './uiux.html',
         description: 'User interface and user experience design principles'
     },
     {
